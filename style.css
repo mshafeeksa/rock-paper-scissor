@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 20px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+.header {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.game-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.player-area, .computer-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.player-image, .computer-image {
+    width: 300px;
+    height: 200px;
+    background-image: url(./images/question-mark.jpg);
+    border: 3px solid white;
+}
+
+.option-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #47b8d6;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.buttons{
+    margin: 10px auto;
+    width: 400px;
+    height: 60px;
+}
+
+h3{
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+.player-score-area, .computer-score-area {
+    font-size: x-large;
+    text-align: center;
+    
+}
+.versus {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#computer-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    /* padding: 10px 20px; */
+    
+}
+
+.score{
+    height: 50px;
+}
+
+.result-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reset {
+    width: 20%;
+    height: 50px;
+    font-size:x-large;
+    
+}
+
+.result-text{
+    width: auto;
+    height: 60px;
+    font-size: xx-large;
+}
+
+/* .player-area *, .computer-area *{
+    border: 1px solid black;
+} */

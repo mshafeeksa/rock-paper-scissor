@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock paper scissor</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script src="script.js"></script>
-    
+    <script src="script.js" defer></script>
+    <div class="header">
+        <h1>Rock Paper Scissor</h1>
+    </div>
+    <div class="game-area">
+        <div class="player-area">
+            <h3>You</h3>
+            <div class="player-image">
+
+            </div>
+            <div class="buttons">
+                <button class="option-button" id="rock">Rock</button>
+                <button class="option-button" id="paper">Paper</button>
+                <button class="option-button"     id="scissors">Scissors</button>
+            </div>
+            <div class="player-score-area">
+                <div class="score-label">Your Score</div>
+                <div class="score" id="player-score"></div>
+            </div>
+        </div>
+        <div class="versus">
+            V/S
+        </div>
+        <div class="computer-area">
+            <h3>Computer</h3>
+            <div class="computer-image">
+
+            </div>
+            <div class="buttons" id="computer-choice">
+            
+            </div>
+            <div class="computer-score-area">
+                <div class="score-label">Computer Score</div>
+                <div class="score" id="computer-score"></div>
+            </div>
+        </div>
+    </div>
+    <div class="result-area">
+        <div class="result-text"></div>
+        <button disabled class="reset">Reset</button>
+    </div>
 </body>
 </html>
+<!-- paper by Photo by Ron Lach : https://www.pexels.com/photo/wrinkly-white-paper-10526919/
+rock by Photo by Peter Döpper: https://www.pexels.com/photo/black-stone-2363901/
+scissor by Photo by Ann H: https://www.pexels.com/photo/photo-of-scissors-on-blue-surface-4216036/
+-->
